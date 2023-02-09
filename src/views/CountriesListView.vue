@@ -3,7 +3,7 @@
     <h1>Countries List</h1>
     <ul>
       <li v-for="(country, index) in countriesCollection" :key="index" >
-        <CountryItem />
+        <CountryItem :country="country"/>
       </li>
     </ul>
   </div>
